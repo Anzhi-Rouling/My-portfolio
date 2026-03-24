@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>项目案例 - 丁子鑫 作品集</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 70px;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href=" ">丁子鑫 作品集</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">个人首页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">技能展示</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">项目案例</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- 项目内容区域 -->
+    <div class="container">
+        <h2 class="text-center text-primary my-5">项目案例</h2>
+        <div class="row g-4">
+            <!-- 项目1：纯前端简易在线计算器 -->
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-sm rounded-3 h-100">
+                    <!-- 统一图片容器高度，让图片等比例裁剪填充 -->
+                    <div style="height: 320px; overflow: hidden;" class="bg-light">
+                        <img src="images/project1.jpg" class="d-block w-100" alt="项目1截图">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">纯前端简易在线计算器</h5>
+                        <p class="card-text">
+                            这是一款轻量化纯前端在线计算器，无需后端接口支持，通过HTML5+CSS3+原生JavaScript实现四则运算、小数点、清零等功能，解决按钮重复点击、运算异常等交互问题，是夯实前端核心能力的入门实战项目。
+                        </p>
+                        <p class="card-text"><small class="text-muted">技术栈：HTML5 | CSS3 | JavaScript原生事件监听/数据处理/异常处理</small></p>
+                        <a href=" " class="btn btn-primary">查看详情</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 项目2：班级信息静态展示页 -->
+            <div class="col-md-6 col-sm-12">
+                <div class="card shadow-sm rounded-3 h-100">
+                    <!-- 和左边项目保持完全一样的图片容器高度 -->
+                    <div style="height: 320px; overflow: hidden;" class="bg-light">
+                        <img src="images/project2.jpg" class="d-block w-100" alt="项目2截图">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">班级信息静态展示页</h5>
+                        <p class="card-text">
+                            基于Bootstrap 5开发的班级信息管理页，实现学生信息增删查改功能，包含数据表格、新增/删除/查询表单，支持响应式布局，适配多端访问。
+                        </p>
+                        <p class="card-text"><small class="text-muted">技术栈：HTML5 | CSS3 | Bootstrap 5表格/表格组件/响应式布局</small></p>
+                        <a href="#" class="btn btn-primary">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
